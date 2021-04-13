@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item
+            android:id="@+id/SB1"
+            android:title="Mall Road"
+            />
+        <item
+            android:id="@+id/SB2"
+            android:title="Model Towm"
+            />
+        <item
+            android:id="@+id/SB3"
+            android:title="Green Town"
+            />
+        <item
+            android:id="@+id/SB4"
+            android:title="Raiwind Road"
+            />
+        <item
+            android:id="@+id/SB5"
+            android:title="Gulshan Ravi"
+            />
+        <item
+            android:id="@+id/SB56"
+            android:title="Samnabad"
+            />
+
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Busapp</string>
+
+    <array name="roues">
+        <item>Mall Road</item>
+        <item>Samnabad</item>
+        <item>Gulshan Ravi</item>
+        <item>Green Town</item>
+        <item>Wapda Town</item>
+        <item>Model Towm</item>
+        <item>Johar Town</item>
+        <item>Raiwind Road</item>
+        <item>Emporium Mall</item>
+        <item>Jail Road</item>
+        <item>Punjab University</item>
+        <item>Mughalpura</item>
+        <item>Harbanspura</item>
+        <item>Gulberg</item>
+        <item>DHA</item>
+        <item>Cannt</item>
+        <item>Muslim Town</item>
+        <item>College Road</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
