@@ -127,11 +127,11 @@ public class Addbuses extends AppCompatActivity implements View.OnClickListener 
         }
         if(v==submit)
         {
-            int busnumber=Integer.parseInt(busno.getText().toString());
+            String busnumber=busno.getText().toString();
             String Busname=busname.getText().toString();
             String departure=busroute.getSelectedItem().toString();
             String arrival=busroute2.getSelectedItem().toString();
-            int Seats=Integer.parseInt(seat.getText().toString());
+            String Seats=seat.getText().toString();
             String DATE=datetxt.getText().toString();
             String timedept=time.getText().toString();
             String timearrv=time2.getText().toString();

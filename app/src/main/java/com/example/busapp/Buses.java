@@ -2,16 +2,21 @@ package com.example.busapp;
 
 public class Buses  {
 
-    int busno;
+    String busno;
     String busname;
     String Depature;
     String Arrival;
-    int seats;
+    String seats;
     String date;
     String timedept;
     String timearrv;
+        public Buses()
+    {
 
-    public Buses(int busno, String busname, String depature, String arrival, int seats, String date, String timeDeparture, String timeArrival) {
+    }
+
+
+    public Buses(String busno, String busname, String depature, String arrival, String seats, String date, String timeDeparture, String timeArrival) {
         this.busno = busno;
         this.busname = busname;
         this.Depature = depature;
@@ -22,7 +27,39 @@ public class Buses  {
         this.timearrv = timeArrival;
     }
 
-    public int getBusno() {
+    public void setBusno(String busno) {
+        this.busno = busno;
+    }
+
+    public void setBusname(String busname) {
+        this.busname = busname;
+    }
+
+    public void setDepature(String depature) {
+        Depature = depature;
+    }
+
+    public void setArrival(String arrival) {
+        Arrival = arrival;
+    }
+
+    public void setSeats(String seats) {
+        this.seats = seats;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setTimedept(String timedept) {
+        this.timedept = timedept;
+    }
+
+    public void setTimearrv(String timearrv) {
+        this.timearrv = timearrv;
+    }
+
+    public String getBusno() {
         return busno;
     }
 
@@ -38,7 +75,7 @@ public class Buses  {
         return Arrival;
     }
 
-    public int getSeats() {
+    public String getSeats() {
         return seats;
     }
 
