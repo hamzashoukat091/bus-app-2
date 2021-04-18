@@ -45,13 +45,14 @@
             android:layout_below="@+id/busnumber"
             android:layout_marginLeft="10dp"
             ></TextView>
+
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="67dp"
             android:layout_height="wrap_content"
 
-            android:layout_toRightOf="@+id/img1"
             android:layout_below="@+id/name"
-            ></TextView>
+            android:layout_marginLeft="104dp"
+            android:layout_toRightOf="@+id/img1"></TextView>
 
         <TextView
             android:layout_width="match_parent"
